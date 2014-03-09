@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Вс. 09 марта 2014 16:53:07
+EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,11 +29,9 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:irf7507
-LIBS:sn74lvc02ad
-EELAYER 25  0
+EELAYER 27 0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
 Title ""
@@ -190,6 +188,8 @@ AR Path="/531C4D53/531C453D" Ref="R4"  Part="1"
 AR Path="/531C4C3E/531C453D" Ref="R10"  Part="1" 
 F 0 "R10" V 2330 1850 50  0000 C CNN
 F 1 "R" V 2250 1850 50  0000 C CNN
+F 2 "" H 2250 1850 60  0001 C CNN
+F 3 "" H 2250 1850 60  0001 C CNN
 	1    2250 1850
 	0    -1   -1   0   
 $EndComp
@@ -201,6 +201,8 @@ AR Path="/531C4D53/531C4501" Ref="R3"  Part="1"
 AR Path="/531C4C3E/531C4501" Ref="R9"  Part="1" 
 F 0 "R9" V 2330 1450 50  0000 C CNN
 F 1 "R" V 2250 1450 50  0000 C CNN
+F 2 "" H 2250 1450 60  0001 C CNN
+F 3 "" H 2250 1450 60  0001 C CNN
 	1    2250 1450
 	0    -1   -1   0   
 $EndComp
@@ -244,6 +246,8 @@ AR Path="/531C4D53/531C435B" Ref="R2"  Part="1"
 AR Path="/531C4C3E/531C435B" Ref="R8"  Part="1" 
 F 0 "R8" V 1230 3250 50  0000 C CNN
 F 1 "R" V 1150 3250 50  0000 C CNN
+F 2 "" H 1150 3250 60  0001 C CNN
+F 3 "" H 1150 3250 60  0001 C CNN
 	1    1150 3250
 	0    -1   -1   0   
 $EndComp
@@ -255,6 +259,8 @@ AR Path="/531C4D53/531C4357" Ref="R1"  Part="1"
 AR Path="/531C4C3E/531C4357" Ref="R7"  Part="1" 
 F 0 "R7" V 1230 3050 50  0000 C CNN
 F 1 "R" V 1150 3050 50  0000 C CNN
+F 2 "" H 1150 3050 60  0001 C CNN
+F 3 "" H 1150 3050 60  0001 C CNN
 	1    1150 3050
 	0    -1   -1   0   
 $EndComp
@@ -266,6 +272,8 @@ AR Path="/531C4D53/531C4353" Ref="R6"  Part="1"
 AR Path="/531C4C3E/531C4353" Ref="R12"  Part="1" 
 F 0 "R12" V 3630 3250 50  0000 C CNN
 F 1 "R" V 3550 3250 50  0000 C CNN
+F 2 "" H 3550 3250 60  0001 C CNN
+F 3 "" H 3550 3250 60  0001 C CNN
 	1    3550 3250
 	0    -1   -1   0   
 $EndComp
@@ -277,6 +285,8 @@ AR Path="/531C4D53/531C434D" Ref="R5"  Part="1"
 AR Path="/531C4C3E/531C434D" Ref="R11"  Part="1" 
 F 0 "R11" V 3630 3050 50  0000 C CNN
 F 1 "R" V 3550 3050 50  0000 C CNN
+F 2 "" H 3550 3050 60  0001 C CNN
+F 3 "" H 3550 3050 60  0001 C CNN
 	1    3550 3050
 	0    -1   -1   0   
 $EndComp
@@ -290,6 +300,8 @@ AR Path="/531C4D53/531C42FE" Ref="C1"  Part="1"
 AR Path="/531C4C3E/531C42FE" Ref="C2"  Part="1" 
 F 0 "C2" H 3200 4150 50  0000 L CNN
 F 1 "C" H 3200 3950 50  0000 L CNN
+F 2 "" H 3150 4050 60  0001 C CNN
+F 3 "" H 3150 4050 60  0001 C CNN
 	1    3150 4050
 	1    0    0    -1  
 $EndComp
@@ -307,6 +319,8 @@ AR Path="/531C4D53/531C3F6B" Ref="DD1"  Part="1"
 AR Path="/531C4C3E/531C3F6B" Ref="DD2"  Part="1" 
 F 0 "DD2" H 3300 2300 60  0000 C CNN
 F 1 "SN74LVC02AD" H 3900 2300 60  0000 C CNN
+F 2 "" H 3600 1700 60  0001 C CNN
+F 3 "" H 3600 1700 60  0001 C CNN
 	1    3600 1700
 	1    0    0    -1  
 $EndComp
@@ -318,6 +332,8 @@ AR Path="/531C4D53/531C3BA7" Ref="Q2"  Part="1"
 AR Path="/531C4C3E/531C3BA7" Ref="Q4"  Part="1" 
 F 0 "Q4" H 4300 3550 60  0000 C CNN
 F 1 "IRF7507" H 5050 3550 60  0000 C CNN
+F 2 "" H 4650 3100 60  0001 C CNN
+F 3 "" H 4650 3100 60  0001 C CNN
 	1    4650 3100
 	1    0    0    -1  
 $EndComp
@@ -329,6 +345,8 @@ AR Path="/531C4D53/531C3BA3" Ref="Q1"  Part="1"
 AR Path="/531C4C3E/531C3BA3" Ref="Q3"  Part="1" 
 F 0 "Q3" H 2000 3550 60  0000 C CNN
 F 1 "IRF7507" H 2750 3550 60  0000 C CNN
+F 2 "" H 2350 3100 60  0001 C CNN
+F 3 "" H 2350 3100 60  0001 C CNN
 	1    2350 3100
 	1    0    0    -1  
 $EndComp

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Вс. 09 марта 2014 16:25:03
+EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,11 +29,9 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:irf7507
-LIBS:sn74lvc02ad
-EELAYER 25  0
+EELAYER 27 0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "noname.sch"
@@ -193,6 +191,8 @@ U 1 1 531C5CF6
 P 6400 1400
 F 0 "K?" V 6350 1400 50  0000 C CNN
 F 1 "CONN_3" V 6450 1400 40  0000 C CNN
+F 2 "" H 6400 1400 60  0001 C CNN
+F 3 "" H 6400 1400 60  0001 C CNN
 	1    6400 1400
 	1    0    0    -1  
 $EndComp
@@ -218,6 +218,8 @@ U 1 1 531C5C60
 P 8300 1350
 F 0 "K?" V 8250 1350 50  0000 C CNN
 F 1 "CONN_3" V 8350 1350 40  0000 C CNN
+F 2 "" H 8300 1350 60  0001 C CNN
+F 3 "" H 8300 1350 60  0001 C CNN
 	1    8300 1350
 	1    0    0    -1  
 $EndComp
@@ -227,6 +229,8 @@ U 1 1 531C5C58
 P 8300 1800
 F 0 "K?" V 8250 1800 50  0000 C CNN
 F 1 "CONN_3" V 8350 1800 40  0000 C CNN
+F 2 "" H 8300 1800 60  0001 C CNN
+F 3 "" H 8300 1800 60  0001 C CNN
 	1    8300 1800
 	1    0    0    -1  
 $EndComp
@@ -246,6 +250,8 @@ U 1 1 531C5AD7
 P 7100 2600
 F 0 "P?" H 7100 2850 50  0000 C CNN
 F 1 "CONN_3X2" V 7100 2650 40  0000 C CNN
+F 2 "" H 7100 2600 60  0001 C CNN
+F 3 "" H 7100 2600 60  0001 C CNN
 	1    7100 2600
 	1    0    0    -1  
 $EndComp
@@ -255,6 +261,8 @@ U 1 1 531C5ACD
 P 7100 3400
 F 0 "P?" H 7100 3650 50  0000 C CNN
 F 1 "CONN_3X2" V 7100 3450 40  0000 C CNN
+F 2 "" H 7100 3400 60  0001 C CNN
+F 3 "" H 7100 3400 60  0001 C CNN
 	1    7100 3400
 	1    0    0    -1  
 $EndComp
@@ -268,11 +276,11 @@ Text Label 8000 4700 2    60   ~ 0
 DIR2
 Text Label 6250 2450 2    60   ~ 0
 PWM1
-Text Label 8000 3250 2    60   ~ 0
+Text Label 8000 3150 2    60   ~ 0
 PWM1
 Text Label 6250 2350 2    60   ~ 0
 DIR1
-Text Label 8000 3150 2    60   ~ 0
+Text Label 8000 3250 2    60   ~ 0
 DIR1
 Text Label 6250 2550 2    60   ~ 0
 GND
@@ -350,6 +358,8 @@ U 1 1 531C4F55
 P 8350 2900
 F 0 "P1" V 8300 2900 60  0000 C CNN
 F 1 "CONN_10" V 8400 2900 60  0000 C CNN
+F 2 "" H 8350 2900 60  0001 C CNN
+F 3 "" H 8350 2900 60  0001 C CNN
 	1    8350 2900
 	1    0    0    -1  
 $EndComp
@@ -359,6 +369,8 @@ U 1 1 531C4F38
 P 8350 4250
 F 0 "P2" V 8300 4250 60  0000 C CNN
 F 1 "CONN_10" V 8400 4250 60  0000 C CNN
+F 2 "" H 8350 4250 60  0001 C CNN
+F 3 "" H 8350 4250 60  0001 C CNN
 	1    8350 4250
 	1    0    0    -1  
 $EndComp

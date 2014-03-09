@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Вс. 09 марта 2014 15:14:51
+EESchema Schematic File Version 2  date Вс. 09 марта 2014 16:25:03
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,7 +35,7 @@ EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
 Date "9 mar 2014"
 Rev ""
@@ -183,19 +183,23 @@ VCC
 Text HLabel 4850 1350 2    60   Input ~ 0
 VCC
 $Comp
-L R R?
+L R R4
 U 1 1 531C453D
 P 2250 1850
-F 0 "R?" V 2330 1850 50  0000 C CNN
+AR Path="/531C4D53/531C453D" Ref="R4"  Part="1" 
+AR Path="/531C4C3E/531C453D" Ref="R10"  Part="1" 
+F 0 "R10" V 2330 1850 50  0000 C CNN
 F 1 "R" V 2250 1850 50  0000 C CNN
 	1    2250 1850
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R?
+L R R3
 U 1 1 531C4501
 P 2250 1450
-F 0 "R?" V 2330 1450 50  0000 C CNN
+AR Path="/531C4D53/531C4501" Ref="R3"  Part="1" 
+AR Path="/531C4C3E/531C4501" Ref="R9"  Part="1" 
+F 0 "R9" V 2330 1450 50  0000 C CNN
 F 1 "R" V 2250 1450 50  0000 C CNN
 	1    2250 1450
 	0    -1   -1   0   
@@ -233,37 +237,45 @@ p_hi
 Text Label 700  3050 0    60   ~ 0
 p_lo
 $Comp
-L R R?
+L R R2
 U 1 1 531C435B
 P 1150 3250
-F 0 "R?" V 1230 3250 50  0000 C CNN
+AR Path="/531C4D53/531C435B" Ref="R2"  Part="1" 
+AR Path="/531C4C3E/531C435B" Ref="R8"  Part="1" 
+F 0 "R8" V 1230 3250 50  0000 C CNN
 F 1 "R" V 1150 3250 50  0000 C CNN
 	1    1150 3250
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R?
+L R R1
 U 1 1 531C4357
 P 1150 3050
-F 0 "R?" V 1230 3050 50  0000 C CNN
+AR Path="/531C4D53/531C4357" Ref="R1"  Part="1" 
+AR Path="/531C4C3E/531C4357" Ref="R7"  Part="1" 
+F 0 "R7" V 1230 3050 50  0000 C CNN
 F 1 "R" V 1150 3050 50  0000 C CNN
 	1    1150 3050
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R?
+L R R6
 U 1 1 531C4353
 P 3550 3250
-F 0 "R?" V 3630 3250 50  0000 C CNN
+AR Path="/531C4D53/531C4353" Ref="R6"  Part="1" 
+AR Path="/531C4C3E/531C4353" Ref="R12"  Part="1" 
+F 0 "R12" V 3630 3250 50  0000 C CNN
 F 1 "R" V 3550 3250 50  0000 C CNN
 	1    3550 3250
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R?
+L R R5
 U 1 1 531C434D
 P 3550 3050
-F 0 "R?" V 3630 3050 50  0000 C CNN
+AR Path="/531C4D53/531C434D" Ref="R5"  Part="1" 
+AR Path="/531C4C3E/531C434D" Ref="R11"  Part="1" 
+F 0 "R11" V 3630 3050 50  0000 C CNN
 F 1 "R" V 3550 3050 50  0000 C CNN
 	1    3550 3050
 	0    -1   -1   0   
@@ -271,10 +283,12 @@ $EndComp
 Text Label 2850 4250 0    60   ~ 0
 M-
 $Comp
-L C C?
+L C C1
 U 1 1 531C42FE
 P 3150 4050
-F 0 "C?" H 3200 4150 50  0000 L CNN
+AR Path="/531C4D53/531C42FE" Ref="C1"  Part="1" 
+AR Path="/531C4C3E/531C42FE" Ref="C2"  Part="1" 
+F 0 "C2" H 3200 4150 50  0000 L CNN
 F 1 "C" H 3200 3950 50  0000 L CNN
 	1    3150 4050
 	1    0    0    -1  
@@ -286,10 +300,12 @@ M+
 Text Label 5200 2800 3    60   ~ 0
 M-
 $Comp
-L SN74LVC02AD DD?
+L SN74LVC02AD DD1
 U 1 1 531C3F6B
 P 3600 1700
-F 0 "DD?" H 3300 2300 60  0000 C CNN
+AR Path="/531C4D53/531C3F6B" Ref="DD1"  Part="1" 
+AR Path="/531C4C3E/531C3F6B" Ref="DD2"  Part="1" 
+F 0 "DD2" H 3300 2300 60  0000 C CNN
 F 1 "SN74LVC02AD" H 3900 2300 60  0000 C CNN
 	1    3600 1700
 	1    0    0    -1  
@@ -298,7 +314,9 @@ $Comp
 L IRF7507 Q2
 U 1 1 531C3BA7
 P 4650 3100
-F 0 "Q2" H 4300 3550 60  0000 C CNN
+AR Path="/531C4D53/531C3BA7" Ref="Q2"  Part="1" 
+AR Path="/531C4C3E/531C3BA7" Ref="Q4"  Part="1" 
+F 0 "Q4" H 4300 3550 60  0000 C CNN
 F 1 "IRF7507" H 5050 3550 60  0000 C CNN
 	1    4650 3100
 	1    0    0    -1  
@@ -307,7 +325,9 @@ $Comp
 L IRF7507 Q1
 U 1 1 531C3BA3
 P 2350 3100
-F 0 "Q1" H 2000 3550 60  0000 C CNN
+AR Path="/531C4D53/531C3BA3" Ref="Q1"  Part="1" 
+AR Path="/531C4C3E/531C3BA3" Ref="Q3"  Part="1" 
+F 0 "Q3" H 2000 3550 60  0000 C CNN
 F 1 "IRF7507" H 2750 3550 60  0000 C CNN
 	1    2350 3100
 	1    0    0    -1  

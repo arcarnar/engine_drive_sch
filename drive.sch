@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Вс. 09 марта 2014 16:25:03
+EESchema Schematic File Version 2  date Вс. 09 марта 2014 16:53:07
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,7 +35,7 @@ EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
-Sheet 2 3
+Sheet 3 3
 Title ""
 Date "9 mar 2014"
 Rev ""
